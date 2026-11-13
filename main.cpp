@@ -15,7 +15,6 @@ protected:
     set<string> commands = {"cd", "ls", "grep"};
 
 public:
-    // Constructor sets the default User password automatically
     User() {
         password = "ILdHV6Ejs7IKf3Cjgkia";
     }
@@ -38,7 +37,6 @@ private:
     set<string> excommands = {"rm", "touch", "shutdown"};
 
 public:
-    // Constructor sets the default Root password automatically
     Root() {
         password = "1wRqn5O0qzgY8zjHkKsWU3yqxdBa75aC";
     }
